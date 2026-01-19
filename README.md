@@ -87,7 +87,6 @@ More information available at: [Kaizer Power Electronics - ZVS Flyback Driver](h
 - **Storage**: EEPROM for settings persistence
 - **Communication**: USB Serial port
 
-![Controller Front View](media/images/controller_front.jpg)
 ![Controller Display](media/images/controller_display.jpg)
 
 **Display Libraries**: TFT_eSPI graphics and font library for ST7735
@@ -112,11 +111,14 @@ More information available at: [Kaizer Power Electronics - ZVS Flyback Driver](h
 ![Cooling Setup](media/images/cooling_setup.jpg)
 
 **Important**: Use thick-walled hoses capable of handling pressure in both directions (including vacuum).
+![Cooling Tray](media/images/cooling_tray.png)
+![Cooling Fan](media/images/cooling_fan.jpg)
 
 **Power Conversion**: Additional DC-DC converters needed for auxiliary equipment power supply:
 - Example: [DC-DC Converter](https://vi.aliexpress.com/item/1005002288373280.html)
 
 ### Relay Module
+![Solid-state Relay](media/images/solid_relay.jpg)
 
 **Solid-State Relay (SSR)**
 - Initial: SSR-40DD 40A DC-DC (failed under load)
@@ -195,7 +197,7 @@ After power supply and induction coil installation, test functionality:
    - Clear boundary line should be visible on case surface
    - Example: .284 Win cases show distinct heat-affected zone
 
-![Annealing Result](media/images/annealing_result.jpg)
+![Annealing Process](media/82dfbeb8f3e42bafb1bd2.mp4)
 ![Case Comparison](media/images/case_comparison.jpg)
 
 ### Safety Features
@@ -226,47 +228,6 @@ This includes:
 - Various experimental components
 
 *Note: Does not include personal time investment*
-
-## Media
-
-All project images and media files are stored locally in the `media/images/` directory. This ensures the documentation is self-contained and doesn't rely on external hosting services.
-
-### Image Files
-
-The following images are referenced in this documentation:
-- `general_view.jpg` - Overall machine view
-- `zvs_driver.jpg` - ZVS flyback driver board
-- `T10_V1.4.jpg` - Controller board (TTGO T1.4 V1.4)
-- `controller_front.jpg` - Controller front view
-- `controller_display.jpg` - Controller with display interface
-- `controller_detail.jpg` - Additional controller detail view
-- `rear_view.jpg` - Rear view showing cooling setup
-- `cooling_setup.jpg` - Detailed cooling system view
-- `machine_detail.jpg` - Additional machine detail view
-- `annealing_result.jpg` - Example of annealed cartridge case
-- `case_comparison.jpg` - Before/after comparison
-- `display_screenshot.png` - Controller display screenshot
-- `system_diagram.png` - System diagram/schematic
-
-### Downloading Images
-
-If images are missing, you can download them from the original Telegraph article:
-
-1. **Automatic Download**: Run the provided script:
-   ```bash
-   ./download_images.sh
-   ```
-
-2. **Manual Download**: 
-   - Open the [original Telegraph article](https://telegra.ph/%D0%86ndukc%D1%96jna-normal%D1%96zac%D1%96ya-g%D1%96lz-06-07) in your browser
-   - Right-click each image and select "Save Image As..."
-   - Save images to `media/images/` directory with the filenames listed above
-
-## References
-
-- **Original Article** (archived): [Telegraph - Індукційна нормалізація гільз](https://telegra.ph/%D0%86ndukc%D1%96jna-normal%D1%96zac%D1%96ya-g%D1%96lz-06-07) - *Note: All content and images have been migrated to this repository*
-- **Firmware Source**: [GitHub Repository](https://github.com/Kotdnz/induction_anneal)
-- **ZVS Driver Information**: [Kaizer Power Electronics](https://kaizerpowerelectronics.dk/high-voltage/mazilli-zvs-flyback-driver/)
 
 ## Contact
 
