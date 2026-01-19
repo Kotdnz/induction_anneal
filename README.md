@@ -239,10 +239,14 @@ The following images are referenced in this documentation:
 - `T10_V1.4.jpg` - Controller board (TTGO T1.4 V1.4)
 - `controller_front.jpg` - Controller front view
 - `controller_display.jpg` - Controller with display interface
+- `controller_detail.jpg` - Additional controller detail view
 - `rear_view.jpg` - Rear view showing cooling setup
 - `cooling_setup.jpg` - Detailed cooling system view
+- `machine_detail.jpg` - Additional machine detail view
 - `annealing_result.jpg` - Example of annealed cartridge case
 - `case_comparison.jpg` - Before/after comparison
+- `display_screenshot.png` - Controller display screenshot
+- `system_diagram.png` - System diagram/schematic
 
 ### Downloading Images
 
